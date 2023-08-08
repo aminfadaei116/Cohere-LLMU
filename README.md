@@ -35,5 +35,5 @@ To get started with the code examples and exercises, follow these steps:
 1. Clone this repository to your local machine using the following command:
 
    ```bash
-   git clone https://github.com/your-username/cohere-language-model-course.git
+   git clone https://github.com/aminfadaei116/Cohere-LLMU.git
 
