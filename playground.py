@@ -1,20 +1,12 @@
 import cohere
-
-
-import json
-
-with open('config.json') as config_file:
-    config = json.load(config_file)
-    api_key = config['api_key']
-
-# Now you can use the 'api_key' variable in your code
+from models.utils.utils import load_api_key
 
 
 def main():
-    co = cohere.Client()
+    api_key = load_api_key()
+    co = cohere.Client(api_key)
     print(co)
-
-
+    
 
 if __name__ == "__main__":
     main()
