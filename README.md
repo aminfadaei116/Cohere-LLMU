@@ -18,13 +18,11 @@ This repository hosts the code and materials for the Cohere Large Language Model
 
 ## Course Modules
 
-1. Introduction to Large Language Models
-2. Preprocessing and Data Preparation
-3. Fine-tuning and Transfer Learning
-4. Text Generation and Completion
-5. Sentiment Analysis with Language Models
-6. Question Answering and Conversational Agents
-7. Ethical Considerations in Using Language Models
+1. Module 1: What are Large Language Models?
+2. Module 2: Text Representation
+3. Module 3: Text Generation
+4. Module 4: Deployment
+
 
 Each module consists of lecture notes, code examples, and practical exercises to reinforce your learning. You'll find the corresponding resources in the respective directories within this repository.
 
