@@ -1,7 +1,7 @@
 from cohere.responses.classify import Example
 
 
-def classify(cohere_models):
+def classify(co):
 
     examples = [
         Example("How do I find my insurance policy?", "Finding policy details"),
@@ -32,8 +32,5 @@ def classify(cohere_models):
         "Does my policy cover prescription medication?"
     ]
 
-    response = cohere_models.classify(
-        inputs=inputs,
-        examples=examples,
-    )
+    response = co.classify()
     print(response)
