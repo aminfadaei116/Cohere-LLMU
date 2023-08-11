@@ -10,5 +10,9 @@ def main():
     # generate_rest_of_the_text(co, prompt)
 
 
+    classify(co)
+
+
+
 if __name__ == "__main__":
     main()
