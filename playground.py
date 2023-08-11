@@ -1,20 +1,13 @@
 import cohere
-from models.utils.utils import load_api_key
+from models.utils.utils import *
 
 
 def main():
     api_key = load_api_key()
     co = cohere.Client(api_key)
-    prompt = "Hello World is a program that"
 
-    response = co.generate(
-        model='xlarge',
-        prompt=prompt,
-        max_tokens=75,
-        temperature=0.4)
-
-    output = response.generations[0].text
-    print(output)
+    # prompt = "The best way to become ourselves is"
+    # generate_rest_of_the_text(co, prompt)
 
 
 if __name__ == "__main__":
