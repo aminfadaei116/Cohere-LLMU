@@ -1,6 +1,7 @@
 import cohere
 from models.utils.utils import *
 from models.classify import classify
+from models.embed import extract_embeding
 
 
 def main():
@@ -12,8 +13,9 @@ def main():
     # prompt = "The best way to become ourselves is"
     # generate_rest_of_the_text(co, prompt)
 
-    classify(co)
+    # classify(co)
 
+    extract_embeding(co, ["hi this is amin"])
 
 if __name__ == "__main__":
     main()
