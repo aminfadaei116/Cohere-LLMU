@@ -17,5 +17,6 @@ def main():
 
     extract_embeding(co, ["hi this is amin"])
 
+
 if __name__ == "__main__":
     main()
