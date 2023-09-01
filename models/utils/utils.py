@@ -4,7 +4,7 @@ import yaml
 def load_api_key() -> str:
     """
     load my cohere API key
-    :return: str
+    :return api_key: str
         The api string that allows us to use the Cohere API
     """
     with open('api_key.yml', 'r') as config_file:
